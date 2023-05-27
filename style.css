@@ -1,0 +1,23 @@
+@import url(styles/header.css);
+@import url(styles/carrossel.css);
+@import url(styles/categorias.css);
+@import url(styles/paginas.css);
+@import url(styles/footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
+
+:root {
+    --white:#ffffff;
+    --black:#000000;
+    --green:#4AC476;
+    --light-green:#b7e7c8;
+    --grey:#808080;
+    --font-main:'Roboto', sans-serif;
+    --font-secondary:'Cormorant Garamond', serif;
+}
+body {
+    font-family:var(--font-main);
+    font-size:16px;
+    font-weight:400;
+    background:var(--white);
+}

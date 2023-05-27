@@ -1,0 +1,51 @@
+hr {
+    margin:0;
+}
+.footer {
+    padding: 2em 0 0 0;
+}
+.footer__logo {
+    display:flex;
+    align-items:center;
+    padding-left: .70em;
+}
+.insta__logo {
+    padding-right:.5em;
+}
+.botao__marca, .botao__missao, .botao__visao, .botao__valores {
+    display:none;
+}
+.botao__marca:checked ~ .marca__texto, .botao__missao:checked ~ .missao__texto, .botao__visao:checked ~ .visao__texto, .botao__valores:checked ~ .valores__texto {
+    display:block;
+}
+.marca__titulo, .missao__titulo, .visao__titulo, .valores__titulo {
+    font-weight:500;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border: 1px solid var(--green);
+    padding:1em;
+    margin: 1em;
+}
+.marca__texto, .missao__texto, .visao__texto, .valores__texto {
+    display:none;
+    margin: 0 1em;
+}
+.desenvolvido {
+    background-color:var(--green);
+    color:var(--white);
+    text-align:center;
+    padding:2em;
+    font-size:18px;
+    font-weight:500;
+}
+@media screen and (min-width:1000px) {
+    .marca__titulo:hover, .missao__titulo:hover, .visao__titulo:hover, .valores__titulo:hover {
+        color:var(--green);
+        background-color: var(--light-green);
+        font-weight:700;
+    }
+    hr {
+        margin-top:4em;
+    }
+}

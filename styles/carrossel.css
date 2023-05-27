@@ -1,0 +1,103 @@
+.swiper-slide img{
+    width:100%;
+}
+.swiper-pagination {
+    position:initial;
+}
+.swiper-pagination-bullet-active {
+    background-color: var(--green);
+}
+.banner__mobile {
+    position:relative;
+    width:100%;
+}
+.banner__desktop {
+    display:none;
+    width:100%;
+}
+.carrossel__vendidos__mobile, .carrossel__lancamentos__mobile {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin: 0 2em;
+}
+.titulo {
+    font-weight:700;
+    margin:5em 0 1.5em 0;
+}
+.carrossel__body img {
+    width:65%;
+}
+.carrossel__body {
+    border: .1px solid var(--black);
+    border-radius: 8px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 1em 0;
+    margin-bottom:.5em;
+}
+.texto {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.sub__titulo {
+    font-weight:500;
+    padding-top:1em;
+}
+.preco {
+    font-weight:700;
+    margin: .5em 0;
+}
+.comprar {
+    color:var(--white);
+    background-color:var(--green);
+    border-radius:16px;
+    padding:.75em;
+}
+.categorias__header__desktop, .carrossel__vendidos__desktop, .carrossel__lancamentos__desktop {
+    display:none;
+}
+@media screen and (min-width:1000px) {
+    .banner__mobile, .carrossel__vendidos__mobile, .carrossel__lancamentos__mobile{
+        display:none;
+    }
+    .banner__desktop{
+        display:block;
+        width:100%;
+    }
+    .categorias__header__desktop {
+        display:flex;
+        justify-content:space-around;
+        padding: .5em 0 2em 0;
+    }
+    .categorias__desktop__link {
+        color:var(--black);
+        font-size:18px;
+        font-weight:500;
+    }
+    .categorias__desktop__link:hover {
+        color:var(--green);
+    }
+    .carrossel__vendidos__desktop, .carrossel__lancamentos__desktop {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        margin: 4em 25em;   
+    }
+    .titulo {
+        font-size:20px;
+    }
+    .sub__titulo, .preco, .comprar {
+        font-size:18px;
+    }
+    .comprar:hover {
+        background-color: var(--light-green);
+        color:var(--green);
+        font-weight:700;
+    }
+}
