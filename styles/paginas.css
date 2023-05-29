@@ -73,4 +73,7 @@
     .categoria__coluna:hover {
         box-shadow: .5px .5px 5px 2px var(--green);
     }
+    .categoria__descricao, .categoria__preco, .categoria__comprar {
+        font-size:20px;
+    }
 }

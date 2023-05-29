@@ -72,21 +72,21 @@
     }
     .categorias__desktop__link {
         color:var(--black);
-        font-size:18px;
+        font-size:22px;
         font-weight:500;
     }
     .categorias__desktop__link:hover {
         color:var(--green);
     }
     .swiper {
-        margin: 4em 30em;   
+        margin: 4em 34em;   
     }
     .titulo {
         text-align:center;
-        font-size:20px;
+        font-size:22px;
     }
     .sub__titulo, .preco, .comprar {
-        font-size:18px;
+        font-size:20px;
     }
     .comprar:hover {
         background-color: var(--light-green);

@@ -33,7 +33,7 @@
         display: block;
     }
     .categorias__titulo {
-        font-size:20px;
+        font-size:22px;
     }
     .categorias__img {
         margin: 0 5em;
@@ -42,7 +42,7 @@
         margin: 0 2.5em;
     }
     .categorias__p {
-        font-size:18px;
+        font-size:20px;
     }
     .categorias__p:hover {
         color:var(--green);

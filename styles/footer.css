@@ -31,12 +31,14 @@ hr {
     display:none;
     margin: 0 1em;
 }
+.valores__texto {
+    padding-bottom: 1em;
+}
 .desenvolvido {
     background-color:var(--green);
     color:var(--white);
     text-align:center;
     padding:2em;
-    font-size:18px;
     font-weight:500;
 }
 @media screen and (min-width:1000px) {
@@ -47,5 +49,8 @@ hr {
     }
     hr {
         margin-top:4em;
+    }
+    .marca__titulo, .missao__titulo, .visao__titulo, .valores__titulo, .marca__texto, .missao__texto, .visao__texto, .valores__texto, .desenvolvido {
+        font-size:20px;
     }
 }
