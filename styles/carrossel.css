@@ -72,14 +72,14 @@
     }
     .categorias__desktop__link {
         color:var(--black);
-        font-size:22px;
+        font-size:20px;
         font-weight:500;
     }
     .categorias__desktop__link:hover {
         color:var(--green);
     }
     .swiper {
-        margin: 4em 34em;   
+        margin: 4em 30em;   
     }
     .titulo {
         text-align:center;
