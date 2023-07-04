@@ -18,7 +18,6 @@ Tabela de conteúdos
      * [Web](#web)
    * [Tecnologias](#-tecnologias)
    * [Autor](#-autor)
-   * [Licença](#user-content--licença)
 <!--te-->
 
 ## 💻 Sobre o projeto
@@ -30,16 +29,33 @@ Tabela de conteúdos
 ### Mobile
 
 <p align="center">
-  <img alt="Fennel Jerwelry Mobile" title="#NextLevelWeek" src=![fennel-jerwelry-mobile](https://github.com/MatheusCruzDaSilva/fennel-jewelry/assets/124690308/9871f7d9-2a6f-49ba-8d18-821b4b29345d)
-"" width="200px">
+  <img alt="Tela Inicial da Fennel Jewelry mobile" title="Fennel Jewelry" src="./assets/fennel-jerwelry-mobile-inicial.png" width="200px">
 
-  <img alt="Fennel Jerwelry Mobile" title="#NextLevelWeek" src="./assets/detalhes-mobile.svg" width="200px">
+  <img alt="Categoria Brincos da Fennel Jewelry mobile" title="Fennel Jewelry" src="./assets/fennel-jerwelry-mobile-categorias.png" width="200px">
 </p>
 
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/web.svg" width="400px">
+  <img alt="Tela Inicial da Fennel Jewelry desktop" title="Fennel Jewelry" src="./assets/fennel-jewelry-desktop-inicial.png" width="400px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/sucesso-web.svg" width="400px">
+  <img alt="Tela Inicial da Fennel Jewelry desktop seção categoria " title="Fennel Jewelry" src="./assets/fennel-jewelry-desktop-categorias.png" width="400px">
 </p>
+
+## 🛠 Tecnologias
+
+<p>Neste projeto foram utilizados as seguintes tecnologias:</p>
+
+- HTML
+- CSS
+- JavaScript
+
+## 👨‍💻 Autor
+
+<a href="https://imgur.com/8sFgpKS"><img src="https://i.imgur.com/8sFgpKS.jpg" style="border-radius:50%" width=100px;></a>
+
+<b>Matheus Cruz</b>🚀
+<br />
+[![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=@Matheus&logoColor=white&link=https://www.instagram.com/_matheuscruz.s/)](https://www.instagram.com/_matheuscruz.s/) 
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/matheuscruz-da-silva/)](https://www.linkedin.com/in/matheuscruz-da-silva/) 
+[![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:matheuscruz960@gmail.com)](mailto:matheuscruz960@gmail.com)
